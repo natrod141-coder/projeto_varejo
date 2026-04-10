@@ -56,4 +56,4 @@ Implementação de modelos de associação para identificar itens comprados junt
 O dataset utilizado foi o **Retail Transactions Dataset**, disponível no [Kaggle](https://www.kaggle.com/datasets/prasad22/retail-transactions-dataset).
 
 ---
-*Projeto desenvolvido como parte de treinamento interno em Ciência de Dados.*
+*Projeto desenvolvido como parte de treinamento interno em Ciência de Dados.*git push origin develop1
