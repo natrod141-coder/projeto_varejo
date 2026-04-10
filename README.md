@@ -18,19 +18,25 @@ O objetivo principal é transformar dados brutos de transações em insights de 
 
 ### 1. Análise Exploratória (EDA) 
 Nesta fase inicial, analisamos o faturamento e volume de vendas global para entender a saúde do negócio:
-- [ ] Total de itens vendidos e Valor total de vendas.
-- [ ] Representatividade de vendas por **Store_type** (%).
-- [ ] Custos operacionais e margens por canal.
-- [ ] Métodos de pagamento mais utilizados e relação com o ticket médio.
-- [ ] Sazonalidade: Vendas por hora e dia da semana.
-- [ ] Desempenho geográfico (cidade com mais vendas).
+- [x]  Qual o total de itens vendidos (somar a quantidade de todos os itens).
+- [x]  Qual o valor tota de vendas.
+- [x]  Quantos itens cada **Store_type** vendeu e quantos % representa do total de itens vendidos
+- [x]  Qual o total de custo por **Store_type** e qual o % do total de custos.
+- [x]  Qual método de pagamento é mais usado e qual é menos usado.
+- [x]  Qual o método escolhido para as compras mais caras.
+- [x]  Qual a quantidade de vendas por hora.
+- [x]  Qual a quantidade de vendas por dia da semana.
+- [x]  O dia e hora com mais venda por cidade.
 
 ### 2. Investigação Profunda por Setor 
-*Setor escolhido: [INSERIR SEU SETOR AQUI]*
-- [ ] Filtragem do dataset para o setor escolhido.
-- [ ] Tratamento da coluna `Product` (separação de itens por transação).
-- [ ] Identificação dos itens mais e menos vendidos no setor.
-- [ ] Análise do perfil do cliente por consumo.
+*Setor escolhido: [Convenience Store]*
+- [x]  Escolher um **Store_type** e vai fazer as próximas análises no setor escolhido
+- [ ]  Filtre ou recorte o dataset com o setor da sua escolha
+- [ ]  Na coluna **Product** temos mais de um item vendido por transação; você vai separar esses itens e agrupar por item. 
+*Queremos saber:*
+- [ ]  Qual item no seu setor vendeu mais (apareceu com mais frequência)
+- [ ]  Qual item no seu setor vendeu menos (apareceu com menos frequência)
+- [ ]  Qual item cada perfil de cliente compra mais
 
 ### 3. Modelo de Recomendação (Machine Learning) 
 Implementação de modelos de associação para identificar itens comprados juntos:
