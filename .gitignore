@@ -1,0 +1,20 @@
+# python(arquivos temporários)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ambientes virtuais
+venv/
+env/
+.env
+
+# jupyter Notebook
+.ipynb_checkpoints/
+
+# dados (opcional, mas eu quero)
+*.csv
+*.xlsx
+
+# sistema
+.DS_Store
+Thumbs.db
