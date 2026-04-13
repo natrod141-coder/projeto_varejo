@@ -18,8 +18,8 @@ O objetivo principal é transformar dados brutos de transações em insights de 
 
 ### 1. Análise Exploratória (EDA) 
 Nesta fase inicial, analisamos o faturamento e volume de vendas global para entender a saúde do negócio:
-- [x]  Qual o total de itens vendidos (somar a quantidade de todos os itens).
-- [x]  Qual o valor tota de vendas.
+- [x]  Qual o total de itens vendidos (somar a quantidade de todos os itens): 5495941 itens
+- [x]  Qual o valor total de vendas: 52455220.40
 - [x]  Quantos itens cada **Store_type** vendeu e quantos % representa do total de itens vendidos
 - [x]  Qual o total de custo por **Store_type** e qual o % do total de custos.
 - [x]  Qual método de pagamento é mais usado e qual é menos usado.
@@ -31,18 +31,18 @@ Nesta fase inicial, analisamos o faturamento e volume de vendas global para ente
 ### 2. Investigação Profunda por Setor 
 *Setor escolhido: [Convenience Store]*
 - [x]  Escolher um **Store_type** e vai fazer as próximas análises no setor escolhido
-- [ ]  Filtre ou recorte o dataset com o setor da sua escolha
-- [ ]  Na coluna **Product** temos mais de um item vendido por transação; você vai separar esses itens e agrupar por item. 
+- [x]  Filtre ou recorte o dataset com o setor da sua escolha
+- [X]  Na coluna **Product** temos mais de um item vendido por transação; você vai separar esses itens e agrupar por item. 
 *Queremos saber:*
-- [ ]  Qual item no seu setor vendeu mais (apareceu com mais frequência)
-- [ ]  Qual item no seu setor vendeu menos (apareceu com menos frequência)
-- [ ]  Qual item cada perfil de cliente compra mais
+- [X]  Qual item no seu setor vendeu mais (apareceu com mais frequência)
+- [X]  Qual item no seu setor vendeu menos (apareceu com menos frequência)
+- [x]  Qual item cada perfil de cliente compra mais
 
 ### 3. Modelo de Recomendação (Machine Learning) 
 Implementação de modelos de associação para identificar itens comprados juntos:
-- [ ] **Técnicas:** Estudo dos algoritmos Apriori, FP-Growth ou Eclat.
-- [ ] **Métricas:** Avaliação por Suporte, Confiança e Lift.
-- [ ] **Próximos Passos:** Clusterização de clientes por comportamento.
+- [x] **Técnicas:** Estudo dos algoritmos Apriori, FP-Growth ou Eclat.
+- [x] **Métricas:** Avaliação por Suporte, Confiança e Lift.
+- [x] **Próximos Passos:** Clusterização de clientes por comportamento.
 
 ---
 
