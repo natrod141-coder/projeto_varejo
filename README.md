@@ -86,4 +86,4 @@ Implementação de modelos de associação para identificar padrões de consumo:
 O dataset utilizado foi o **Retail Transactions Dataset**, disponível no [Kaggle](https://www.kaggle.com/datasets/prasad22/retail-transactions-dataset).
 
 ---
-*Projeto desenvolvido como parte de treinamento interno em Ciência de Dados.*git push origin develop1
+*Projeto desenvolvido como parte de treinamento interno em Ciência de Dados.*
